@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: blue;
+        }
+        nav {
+            background-color: rgb(5, 63, 253);
+            padding: 10px;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+   
+        }
+        li {
+            list-style: none;
+            background-color: blue;
+        }
+        li:hover {
+            background-color: rgb(104, 83, 241);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1><u>Mi sitio Web</u></h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="opciones" onclick="vista(this)" value="Inicio">Inicio</li>
+            <li class="opciones" onclick="vista(this)" value="Blog">Blog</li>
+            <li class="opciones" onclick="vista(this)" value="Sobre mi">Sobre mi</li>
+            <li class="opciones" onclick="vista(this)" value="Fotos">Fotos</li>
+            <li class="opciones" onclick="vista(this)" value="Portfolio">Portfolio</li>
+            <li class="opciones" onclick="vista(this)" value="Contacto">Contacto</li>
+            <li class="opciones" onclick="vista(this)" value="Enlaces">Enlaces</li>
+        </ul>
+    </nav>
+    <h1 id="verNombre"></h1>
+    <script src="script.js"></script>
+</body>
+</html>

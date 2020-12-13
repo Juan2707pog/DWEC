@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez</title>
+    <style>
+#board, #board > div {
+    display:table-row;
+    margin:0;
+    padding:0;
+    
+}
+#board .black, #board .white, #board .number {
+    display: table-cell;
+    width:40px;
+    height:40px;
+    border:1px #191919 solid;
+}
+#board .number {
+    line-height:40px;
+    text-align:center;
+    border:1px transparent solid;
+}
+#board .black {
+    background:#191919;
+}
+#board .white {
+    background:#fff;
+}
+    </style>
+</head>
+<body>
+    <div id="board"></div>
+    <script src="ajedrez.js"></script>
+</body>
+</html>

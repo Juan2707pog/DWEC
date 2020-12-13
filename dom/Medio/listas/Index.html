@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+        .tabla {
+            margin: 50px auto;
+            display: flex;
+            border: 1px solid black;
+            width: 1000px;
+            height: 700px;
+            padding: 20px;
+        }
+
+        .cajetilla {
+            border: 1px solid black;
+            width: 400px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+
+
+        <div class="cajetilla" id="cajetilla1">
+            <ul id="lista1">
+                <li class="elemento" id="element1" value="lista1" onclick="move(this)">Elemento 1</li>
+                <li class="elemento" id="element2" value="lista1" onclick="move(this)">Elemento 2</li>
+                <li class="elemento" id="element3" value="lista1" onclick="move(this)">Elemento 3</li>
+                <li class="elemento" id="element4" value="lista1" onclick="move(this)">Elemento 4</li>
+                <li class="elemento" id="element5" value="lista1" onclick="move(this)">Elemento 5</li>
+            </ul>
+        </div>
+        <div class="cajetilla" id="cajetilla2">
+            <ul id="lista2">
+
+            </ul>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

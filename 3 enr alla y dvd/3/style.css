@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6{
+	font-weight: lighter;
+}
+.title {
+
+	text-align    : center;
+	line-height   : 40px;
+	color         : rgb(0, 0, 0);
+	font-weight   : 200;
+	text-transform: uppercase;
+}
+body {
+	background-color: #fff;
+}
+
+.container {
+	width           : 318px;
+	height          : 318px;
+	padding         : 1px 1px 1px;
+	border: 1px solid;
+	background-color: rgb(100, 116, 30);
+	margin          : auto;
+	margin-top      : 20px;
+
+}
+
+.cuadrado0 {
+	border: 1px solid;
+	width           : 100px;
+	height          : 100px;
+	margin          : 2px;
+	background-color: #fff;
+	float           : left;
+	text-align      : center;
+	line-height     : 100px;
+
+}
+
+
+
+.info,
+#testerButton {
+	width : 330px;
+	margin: auto;
+
+}
+
+#capa {
+
+	width           : 318px;
+	height          : 0px;
+
+	display         : none;
+	color           : #ffffff;
+	text-align      : center;
+
+	font-weight: lighter;
+}
+
+#next:hover {
+	background-color: rgb(255, 255, 255);
+}
+
+#menu {
+  
+	border          : 1px solid #141414;
+	width           : 319px;
+
+	text-align      : left;
+	font-weight     : 100;
+}
+
+
+#modoMultijugador {
+	font-weight: lighter;
+}
+
+#modoJugadorIA {
+	font-weight: lighter;
+	display: none;
+}
+

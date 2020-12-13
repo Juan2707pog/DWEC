@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        #container {
+            margin: 50px;
+            width: 195px;
+            border: 3px solid yellowgreen;
+        }
+
+        div div {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            justify-content: space-around;
+        }
+
+        input {
+            margin: 10px;
+            border: 1px solid black;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="valor_numero">
+        <div>
+            <button onclick="añadirNum(1)">1</button>
+            <button onclick="añadirNum(2)">2</button>
+            <button onclick="añadirNum(3)">3</button>
+            <button onclick="añadirNum(4)">4</button>
+        </div>
+
+        <div>
+            <button onclick="añadirNum(5)">5</button>
+            <button onclick="añadirNum(6)">6</button>
+            <button onclick="añadirNum(7)">7</button>
+            <button onclick="añadirNum(8)">8</button>
+        </div>
+
+        <div>
+            <button onclick="añadirNum(9)">9</button>
+            <button onclick="añadirNum(0)">0</button>
+            <button onclick="operar(1)">+</button>
+            <button onclick="operar(2)">-</button>
+        </div>
+
+        <div>
+            <button onclick="operar(3)">/</button>
+            <button onclick="operar(4)">*</button>
+            <button onclick="darCE()">C</button>
+            <button onclick="operaciones()">=</button>
+        </div>
+    </div>
+    <script src="calcu.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+#tablero {
+
+    height: 100px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: center;
+}
+
+#j {
+    position: absolute;
+    left: 0%;
+    width: 25%;
+    height: 5%;
+    top:13%;
+}
+
+#red, #yellow, #blue, #purple, #orange, #green, #tur, #black, #cielo {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+
+
+}
+#red {
+    background-color: red;
+    color: blue;
+
+}
+
+#yellow {
+    background-color: yellow;
+    color: black;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}
+
+#orange {
+    background-color: orange;
+    color: black;
+}
+
+#green {
+    background-color: green;
+    color: blue;
+}
+
+#tur {
+    background-color: teal;
+    color: white;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#cielo {
+    background-color: rgb(9, 95, 255);
+    color: white;
+}
